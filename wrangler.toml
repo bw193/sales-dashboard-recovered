@@ -1,8 +1,12 @@
 name = "sales-dashboard-recovered"
 compatibility_date = "2026-05-14"
-pages_build_output_dir = "public"
+main = "src/index.js"
 
-# To connect the recovered Pages Functions to the original D1 database,
+[assets]
+directory = "public"
+binding = "ASSETS"
+
+# To connect the recovered Worker to the original D1 database,
 # add the real values here or configure the same binding in the Cloudflare dashboard.
 #
 # [[d1_databases]]
